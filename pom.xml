@@ -16,7 +16,28 @@
 	<name>jiangdaxian_component_common</name>
 	<url>http://maven.apache.org</url>
 
+	<properties>
+		<okhttp.version>2.7.5</okhttp.version>
+		<commons-lang3.version>3.2.1</commons-lang3.version>
+		<org.apache.poi.version>3.14</org.apache.poi.version>
+	</properties>
+
 	<dependencies>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${org.apache.poi.version}</version>
+		</dependency>	
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons-lang3.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.squareup.okhttp</groupId>
+		    <artifactId>okhttp</artifactId>
+		    <version>${okhttp.version}</version>
+		</dependency>
 		<dependency>
 	    	<groupId>org.springframework.boot</groupId>
 	    	<artifactId>spring-boot-autoconfigure</artifactId>
