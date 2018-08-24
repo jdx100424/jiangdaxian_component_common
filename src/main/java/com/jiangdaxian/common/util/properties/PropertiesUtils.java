@@ -7,7 +7,7 @@
  */
 package com.jiangdaxian.common.util.properties;
 
-import java.util.Properties;
+import java.util.Properties;             
 
 /**
  * Properties文件工具类.
